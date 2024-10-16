@@ -5,7 +5,7 @@
 }
 
 body{
-    background: url('img/bg-desktop.webp');
+    background: url(img/bg-desktop.webp);
     font-family: 'Bai Jamjuree';
 }
 
@@ -61,7 +61,7 @@ font-weight: 500;
     font-weight: 700;
 }
 
-.cartao:hover .cartao__conteudo {
+.cartao.active .cartao__conteudo {
     transform: rotateY(180deg);
     
 .cartao__conteudo__pergunta,
@@ -111,10 +111,4 @@ footer p {
     .cartao_conteudo h3 {
         font-size: 3.8vw;
     }
-
-
-
-
-
-
-
+}
